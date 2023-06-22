@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <script src="https://fastly.jsdelivr.net/npm/echarts@5.3.3/dist/echarts.min.js"></script>
+    <script src="./script.js"></script>
+    <title>Document</title>
+
+</head>
+
+<body>
+    <h3>Water Tank Problem</h3>
+    <div>
+        <input id="input" />
+        <button id="input-btn" onclick="fetchData()">Submit</button>
+    </div>
+    <div>
+        <h3 id="chart1-heading">Bricks And Water</h3>
+        <div id="chart1"></div>
+    </div>
+
+    <div>
+        <h4><span style="margin-left: 120px;" id="waterquantity"></span></h4>
+        <h2 id="chart2-heading">Only Water</h2>
+        <div id="chart2"></div>
+    </div>
+</body>
+
+</html>

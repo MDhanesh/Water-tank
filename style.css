@@ -1,0 +1,33 @@
+#chart1 {
+  position: relative;
+  height: 80vh;
+  overflow: hidden;
+}
+
+#chart2 {
+  position: relative;
+  height: 80vh;
+  overflow: hidden;
+}
+
+#input {
+  width: 280px;
+  height: 30px;
+  border-radius: 10px;
+}
+
+#input-btn {
+  background-color: green;
+  height: 33px;
+  width: 100px;
+  border-radius: 20px;
+  color: wheat;
+  transition: 0.5s;
+}
+#input-btn:hover {
+  transform: scale(1.1);
+}
+
+#input-btn:active {
+  transform: scale(0.9);
+}
